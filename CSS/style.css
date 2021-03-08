@@ -222,6 +222,7 @@ ul {
   margin-bottom: 210px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
 
 .info,
@@ -607,6 +608,7 @@ ul {
   line-height: 30px;
   letter-spacing: 0.06em;
   color: var(--white-text);
+  border: none;
 }
 
 .button-form {
@@ -802,6 +804,7 @@ ul {
   display: flex;
   padding: 40px;
   flex-direction: column;
+  margin: 0;
 }
 
 .modal-title {
@@ -824,8 +827,6 @@ ul {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: var(--gray-text);
-  margin-top: 10px;
-  margin-bottom: 4px;
   height: 14px;
 }
 
@@ -851,10 +852,10 @@ ul {
   border-radius: 4px;
   padding: 12px 16px;
   outline: none;
-  margin-top: 4px;
   color: var(--black-text);
   cursor: pointer;
   resize: none;
+  margin-top: 4px;
 }
 
 .check-label {
@@ -881,9 +882,9 @@ ul {
 .modalphone,
 .modalmail {
   position: relative;
+  color: var(--black-text);
   margin-top: 4px;
   margin-bottom: 10px;
-  color: var(--black-text);
 }
 
 .modalname-icon {
@@ -906,8 +907,9 @@ ul {
 
 .modalcheck {
   display: flex;
-  margin-top: 20px;
   position: relative;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .modal-send-button {
@@ -918,7 +920,7 @@ ul {
   border-radius: 4px;
   justify-content: center;
   text-align: center;
-  margin: 30px 124px;
+  margin-left: 124px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
