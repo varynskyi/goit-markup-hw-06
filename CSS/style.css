@@ -767,6 +767,8 @@ ul {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  margin: 0;
+  padding: 0;
 }
 
 .button-modal {
@@ -852,6 +854,7 @@ ul {
   margin-top: 4px;
   color: var(--black-text);
   cursor: pointer;
+  resize: none;
 }
 
 .check-label {
@@ -925,6 +928,7 @@ ul {
   align-items: center;
   letter-spacing: 0.06em;
   color: var(--white-text);
+  border: none;
 }
 
 .modal-send-button:hover,
