@@ -761,7 +761,7 @@ ul {
 .modal-sign {
   position: absolute;
   width: 528px;
-  height: 581px;
+
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -804,7 +804,6 @@ ul {
   display: flex;
   padding: 40px;
   flex-direction: column;
-  margin: 0;
 }
 
 .modal-title {
@@ -855,7 +854,6 @@ ul {
   color: var(--black-text);
   cursor: pointer;
   resize: none;
-  margin-top: 4px;
 }
 
 .check-label {
@@ -883,8 +881,13 @@ ul {
 .modalmail {
   position: relative;
   color: var(--black-text);
-  margin-top: 4px;
+  margin-top: 3px;
   margin-bottom: 10px;
+}
+
+.modal-comment {
+  margin-bottom: 20px;
+  margin-top: 3px;
 }
 
 .modalname-icon {
@@ -908,8 +911,6 @@ ul {
 .modalcheck {
   display: flex;
   position: relative;
-  margin-top: 15px;
-  margin-bottom: 30px;
 }
 
 .modal-send-button {
@@ -931,6 +932,7 @@ ul {
   letter-spacing: 0.06em;
   color: var(--white-text);
   border: none;
+  margin-top: 30px;
 }
 
 .modal-send-button:hover,
